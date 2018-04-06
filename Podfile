@@ -11,9 +11,11 @@ target 'Calendar Sync' do
     pod 'GoogleAPIClientForREST/Calendar', '~>1.2.1'
     pod 'Firebase', '~>4.11.0'
     pod 'FirebaseAuth', '~>4.5.0'
+    pod 'FirebaseDatabase'
     pod 'FBSDKCoreKit'
     pod 'FBSDKShareKit'
     pod 'FBSDKLoginKit'
+    pod 'Parse'
   target 'Calendar SyncTests' do
     inherit! :search_paths
     # Pods for testing

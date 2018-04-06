@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694FD7A62074491100637E14 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694FD7A52074491100637E14 /* UserList.swift */; };
 		6953A1552064B71100E8BCF1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953A1542064B71100E8BCF1 /* RegisterViewController.swift */; };
 		69566040206376C70073DDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956603F206376C70073DDE9 /* AppDelegate.swift */; };
-		69566042206376C70073DDE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69566041206376C70073DDE9 /* ViewController.swift */; };
+		69566042206376C70073DDE9 /* SignInUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69566041206376C70073DDE9 /* SignInUser.swift */; };
 		69566045206376C70073DDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69566043206376C70073DDE9 /* Main.storyboard */; };
 		69566047206376C70073DDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69566046206376C70073DDE9 /* Assets.xcassets */; };
-		6956604A206376C70073DDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69566048206376C70073DDE9 /* LaunchScreen.storyboard */; };
 		69566055206376C70073DDE9 /* Calendar_SyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69566054206376C70073DDE9 /* Calendar_SyncTests.swift */; };
 		69566060206376C70073DDE9 /* Calendar_SyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956605F206376C70073DDE9 /* Calendar_SyncUITests.swift */; };
 		6956606E206379A30073DDE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6956606D206379A30073DDE9 /* GoogleService-Info.plist */; };
 		6964F470206730740050EEF5 /* MainDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964F46F206730740050EEF5 /* MainDisplay.swift */; };
-		6964F472206748110050EEF5 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964F471206748110050EEF5 /* Calendar.swift */; };
+		69EC975E2072047100B046B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EC975D2072047100B046B7 /* LaunchScreen.storyboard */; };
 		762E4C452CA82A813AFE754E /* Pods_Calendar_SyncUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EC8195368BF1BDA06B80AC /* Pods_Calendar_SyncUITests.framework */; };
 		A52A2BD4A45C9A2CE0D5F06E /* Pods_Calendar_SyncTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBF759EA95C0B73CC68E94C /* Pods_Calendar_SyncTests.framework */; };
 		DDB3C9CADE35342DAC294869 /* Pods_Calendar_Sync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52766DFF33AB5362C4BD9E3D /* Pods_Calendar_Sync.framework */; };
@@ -44,13 +44,13 @@
 		36A06BA1AD071CE7B580CDC8 /* Pods-Calendar Sync.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar Sync.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calendar Sync/Pods-Calendar Sync.release.xcconfig"; sourceTree = "<group>"; };
 		52766DFF33AB5362C4BD9E3D /* Pods_Calendar_Sync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calendar_Sync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6562A400D407250718F408ED /* Pods-Calendar SyncUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar SyncUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calendar SyncUITests/Pods-Calendar SyncUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		694FD7A52074491100637E14 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
 		6953A1542064B71100E8BCF1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		6956603C206376C70073DDE9 /* Calendar Sync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calendar Sync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6956603F206376C70073DDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69566041206376C70073DDE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69566041206376C70073DDE9 /* SignInUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUser.swift; sourceTree = "<group>"; };
 		69566044206376C70073DDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69566046206376C70073DDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		69566049206376C70073DDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6956604B206376C70073DDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69566050206376C70073DDE9 /* Calendar SyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calendar SyncTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69566054206376C70073DDE9 /* Calendar_SyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar_SyncTests.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		69566061206376C70073DDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6956606D206379A30073DDE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6964F46F206730740050EEF5 /* MainDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDisplay.swift; sourceTree = "<group>"; };
-		6964F471206748110050EEF5 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		69EC975D2072047100B046B7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DF417B28665022B6BAFF6DA /* Pods-Calendar SyncUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar SyncUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calendar SyncUITests/Pods-Calendar SyncUITests.release.xcconfig"; sourceTree = "<group>"; };
 		96393230C84CA2061854270A /* Pods-Calendar Sync.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar Sync.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calendar Sync/Pods-Calendar Sync.debug.xcconfig"; sourceTree = "<group>"; };
 		A0BAB8565E36907ECD928FC9 /* Pods-Calendar SyncTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calendar SyncTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calendar SyncTests/Pods-Calendar SyncTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,13 +133,13 @@
 			isa = PBXGroup;
 			children = (
 				6956603F206376C70073DDE9 /* AppDelegate.swift */,
-				69566041206376C70073DDE9 /* ViewController.swift */,
+				69566041206376C70073DDE9 /* SignInUser.swift */,
 				69566043206376C70073DDE9 /* Main.storyboard */,
-				6964F471206748110050EEF5 /* Calendar.swift */,
+				694FD7A52074491100637E14 /* UserList.swift */,
 				6964F46F206730740050EEF5 /* MainDisplay.swift */,
 				6953A1542064B71100E8BCF1 /* RegisterViewController.swift */,
 				69566046206376C70073DDE9 /* Assets.xcassets */,
-				69566048206376C70073DDE9 /* LaunchScreen.storyboard */,
+				69EC975D2072047100B046B7 /* LaunchScreen.storyboard */,
 				6956606D206379A30073DDE9 /* GoogleService-Info.plist */,
 				6956604B206376C70073DDE9 /* Info.plist */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Jay;
 				TargetAttributes = {
 					6956603B206376C70073DDE9 = {
@@ -293,8 +293,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6956604A206376C70073DDE9 /* LaunchScreen.storyboard in Resources */,
 				6956606E206379A30073DDE9 /* GoogleService-Info.plist in Resources */,
+				69EC975E2072047100B046B7 /* LaunchScreen.storyboard in Resources */,
 				69566047206376C70073DDE9 /* Assets.xcassets in Resources */,
 				69566045206376C70073DDE9 /* Main.storyboard in Resources */,
 			);
@@ -464,6 +464,8 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -476,6 +478,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,11 +494,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694FD7A62074491100637E14 /* UserList.swift in Sources */,
 				6953A1552064B71100E8BCF1 /* RegisterViewController.swift in Sources */,
-				69566042206376C70073DDE9 /* ViewController.swift in Sources */,
+				69566042206376C70073DDE9 /* SignInUser.swift in Sources */,
 				69566040206376C70073DDE9 /* AppDelegate.swift in Sources */,
 				6964F470206730740050EEF5 /* MainDisplay.swift in Sources */,
-				6964F472206748110050EEF5 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,14 +542,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		69566048206376C70073DDE9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69566049206376C70073DDE9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -563,6 +559,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -570,6 +567,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -620,6 +618,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -627,6 +626,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

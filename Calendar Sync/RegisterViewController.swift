@@ -30,9 +30,14 @@ class RegisterViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDe
     @IBOutlet weak var userNewPass: UITextField!
     @IBOutlet weak var userPassConfirm: UITextField!
     @IBOutlet weak var userEmail: UITextField!
+    @IBOutlet weak var userName: UITextField!
+    
+    var refUser: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        refUser = Database.database().reference().child("Users")
         
         // Setting the label for unmatch passweord to invisible.
         passCheckAlert.isHidden = true
@@ -68,6 +73,7 @@ class RegisterViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDe
         let email = userEmail.text
         let confirmPass = userPassConfirm.text
         let newPass = userNewPass.text
+        let name = userName.text
         if (email?.isEmpty)!{
             emailCheckAlert.isHidden = false
         }else{
@@ -79,12 +85,27 @@ class RegisterViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDe
                         print("Unable to connect with Firebase: ", err)
                     }else{
                         guard let uid = user?.uid else{return}
-                        print("Successfully created an account: ", uid)}
+                        print("Successfully created an account: ", uid)
+                        let key = Auth.auth().currentUser?.uid
+                        let user = ["id": key,
+                                    "useremail": email,
+                                    "username": name]
+                        self.refUser.child(key!).setValue(user)
+                        self.performSegue(withIdentifier: "signUpMain", sender: sender)
+                    }
                 }
             } else if newPass != confirmPass{
                 passCheckAlert.isHidden = false
             }
         }
+    }
+    
+    
+    func presentSignupAlertView() {
+        let alertController = UIAlertController(title: "Error", message: "Couldn't create account", preferredStyle: .alert)
+        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(defaultAction)
+        present(alertController, animated: true, completion: nil)
     }
     
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD9C887E273077B5FBEA7A5B498E5BA5"
+               BlueprintIdentifier = "09CF7A593D743224F320C209BD72CA50"
                BuildableName = "Pods_Calendar_Sync.framework"
                BlueprintName = "Pods-Calendar Sync"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD9C887E273077B5FBEA7A5B498E5BA5"
+            BlueprintIdentifier = "09CF7A593D743224F320C209BD72CA50"
             BuildableName = "Pods_Calendar_Sync.framework"
             BlueprintName = "Pods-Calendar Sync"
             ReferencedContainer = "container:Pods.xcodeproj">
