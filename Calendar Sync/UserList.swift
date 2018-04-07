@@ -7,16 +7,32 @@
 //
 
 import UIKit
+import Firebase
 
-class UserList: UIViewController {
 
-    @IBOutlet weak var userEmail: UITableView!
-    @IBOutlet weak var userName: UITableView!
+class UserList: UIViewController, UISearchBarDelegate {
+
+    
+    @IBOutlet weak var searchFriends: UISearchBar!
+    
+    var refUser: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        refUser = Database.database().reference()
+    }
+    func userSearch()
+    {
+        let searchText = searchFriends.text
+        refUser.child("Users").queryOrdered(byChild: "username").queryStarting(atValue: searchText, childKey: "username").queryEnding(atValue: searchText! + "\u{f8ff}", childKey: "username").observeSingleEvent(of: .value) { (snapshot) in
+            print(snapshot)
+        }
+        
+    }
+    func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
+        userSearch()
+        return true
     }
 
 }
+

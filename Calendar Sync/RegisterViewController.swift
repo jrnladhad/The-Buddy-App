@@ -87,9 +87,10 @@ class RegisterViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDe
                         guard let uid = user?.uid else{return}
                         print("Successfully created an account: ", uid)
                         let key = Auth.auth().currentUser?.uid
-                        let user = ["id": key,
-                                    "useremail": email,
-                                    "username": name]
+                        let user = ["username": name,
+                                    "id": key,
+                                    "useremail": email
+                                    ]
                         self.refUser.child(key!).setValue(user)
                         self.performSegue(withIdentifier: "signUpMain", sender: sender)
                     }
